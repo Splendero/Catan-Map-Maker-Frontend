@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A React frontend for displaying Catan-style maps",
   "main": "index.js",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
