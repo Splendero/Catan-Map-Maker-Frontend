@@ -1,0 +1,39 @@
+/* Remove all the container styles, just keep this if needed */
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hex-group {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.hex-position {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Scale the entire group based on viewport size */
+@media (max-width: 500px) {
+  .hex-group {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 400px) {
+  .hex-group {
+    transform: scale(0.6);
+  }
+}
+
+@media (max-width: 300px) {
+  .hex-group {
+    transform: scale(0.5);
+  }
+}
