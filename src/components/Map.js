@@ -52,7 +52,7 @@ const HexMap = ({ tiles = [] }) => {
 
   // Calculate viewport-based positions using live hex size
   const getViewportPosition = (xOffset, yOffset) => {
-    const xCenter = window.innerWidth * 0.7;
+    const xCenter = window.innerWidth * 0.5;
     const yCenter = window.innerHeight * 0.5;
     const hexSize = getHexSize();
         

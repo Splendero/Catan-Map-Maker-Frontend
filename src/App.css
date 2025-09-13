@@ -5,10 +5,10 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, #2c5530, #1a3d1f);
+  background: linear-gradient(135deg, #f2d99f, #f2d99f);
 }
 
 .app h1 {
-  font-size: 2em;
+  font-size: 2em;   
   color: #333;
 }
