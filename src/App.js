@@ -15,7 +15,7 @@ const App = () => {
     const fetchInitialMap = async () => {
       try {
         setLoading(true);
-        const response = await fetch('http://127.0.0.1:5000/generate-constrained', {
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/generate-constrained`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -70,7 +70,7 @@ const App = () => {
     if (featureId === 'generate') {
       try {
         setLoading(true);
-        const response = await fetch('http://127.0.0.1:5000/generate-constrained', {
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/generate-constrained`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
